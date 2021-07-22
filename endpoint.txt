@@ -1,0 +1,23 @@
+s800-en.ogame.gameforge.com/api/players.xml - Updateinterval 1 day
+s800-en.ogame.gameforge.com/api/universe.xml - Updateinterval 1 week
+s800-en.ogame.gameforge.com/api/highscore.xml?category=1&type=1 - Updateinterval 1 hour -
+correct categories are:
+ID	Name
+1		Player
+2		Alliance
+correct types are:
+ID	Name
+0	Total
+1	Economy
+2	Research
+3	Military
+5	Military Built
+6	Military Destroyed
+4	Military Lost
+7	Honor
+
+s800-en.ogame.gameforge.com/api/alliances.xml - Updateinterval 1 day
+s800-en.ogame.gameforge.com/api/serverData.xml - Updateinterval 1 day
+s800-en.ogame.gameforge.com/api/playerData.xml - Updateinterval 1 week
+s800-en.ogame.gameforge.com/api/localization.xml - Added in Ogame 5.2.2
+s800-en.ogame.gameforge.com/api/universes.xml - Added in OGame 5.5

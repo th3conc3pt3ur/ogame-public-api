@@ -1,0 +1,31 @@
+{
+    "name": "theconcepteur/ogame-public-api",
+    "description": "Ogame Class for use public ogame api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TheConcepteur",
+            "email": "conceptordev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "src/OgamePublicApi.php",
+            "src/Player.php",
+            "src/Alliance.php",
+            "src/Moon.php",
+            "src/Planet.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.1",
+        "symfony/dom-crawler": "^4.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.4"
+    }
+}
