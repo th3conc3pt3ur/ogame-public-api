@@ -2,7 +2,7 @@
 PHP class for retreive info on the GameForge's OGame public api
 
 ## Installation
-`composer install XX`
+`composer require theconcepteur/ogame-public-api:dev-master`
 
 ## Usage
 the class contruct take 3 arguments : number of the server,locale, and boolean for activated the cache or not (strongly recommanded !)
